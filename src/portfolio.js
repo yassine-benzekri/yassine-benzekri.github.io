@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Yassine's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Mohamed Yassine Ben Zekri Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,9 +19,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Mohamed Yassine Ben Zekri",
+  logo_name: "Mohamed Yassine Ben Zekri",
+  nickname: "garyhost",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -131,88 +131,7 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
+
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -281,45 +200,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
   ],
 };
 
@@ -380,30 +260,32 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Institut Préparatoire aux Études d'Ingénieur de Nabeul (IPEIN)",
+      subtitle: "Preparatory Classes for Engineering Studies",
+      logo_path: "ipein_logo.png",
+      alt_name: "IPEIN",
+      duration: "2020 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Studied fundamental subjects such as Mathematics, Physics, Chemistry, and Computer Science to prepare for engineering school entrance exams.",
+        "⚡ Developed strong problem-solving skills through intensive coursework and competitive exams.",
+        "⚡ Achieved high academic performance and ranked among top students in national competitions.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://www.ipein.rnu.tn",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title:
+        "École Supérieure de la Statistique et de l'Analyse de l'Information (ESSAI)",
+      subtitle: "Engineering Degree in Statistics and Data Analysis",
+      logo_path: "essai_logo.png",
+      alt_name: "ESSAI",
+      duration: "2022 - Present",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Specialized in Statistics, Data Science, and Financial Engineering.",
+        "⚡ Developed expertise in Machine Learning, Deep Learning, Big Data, and Predictive Modeling.",
+        "⚡ Worked on real-world projects in AI, Data Science, and Financial Analysis.",
+        "⚡ Conducted research in AI-driven decision-making and forecasting models.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "http://www.essai.rnu.tn",
     },
   ],
 };
@@ -411,20 +293,20 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
+      title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.coursera.org/account/accomplishments/verify/ZJMQZAP8VMJX",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
+      title: "Su pervised Machine Learning: Regression and Classification",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://www.coursera.org/account/accomplishments/certificate/WUV27E2DGR6L",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -439,11 +321,10 @@ const certifications = {
     },
     {
       title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
+      subtitle: "- Datacamp",
+      logo_path: ".png",
+      certificate_link: "https://www.datacamp.com/certificate/DAA0012688286315",
+      alt_name: "Datacamp",
       color_code: "#1F70C199",
     },
     {
