@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1Tzt6MIckhnDcju1DzvoxeWsEI7072Y-r/view?usp=sharing",
+  portfolio_repository: "https://github.com/garyhost2/garyhost2",
+  githubProfile: "https://github.com/garyhost2/",
 };
 
 const socialMediaLinks = [
@@ -42,43 +42,43 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/garyhost2/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/yassine-ben-zekri-72aa6b199/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
+  /* {
     name: "YouTube",
     link: "https://youtube.com/c/DevSense19",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  },*/
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:medyassine.benzekri@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
+  /*{
     name: "X-Twitter",
     link: "https://twitter.com/ashutosh_1919",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
+  },*/
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/hamatoysin.123.12/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/yassine_ben_zekri/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -96,23 +96,15 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
           },
@@ -143,13 +135,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
@@ -161,13 +146,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
           },
         },
         {
@@ -191,13 +169,6 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
   ],
@@ -212,39 +183,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://leetcode.com/u/garyhost2/",
     },
     {
       siteName: "Kaggle",
@@ -252,7 +191,15 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/yassinebenzekri",
+    },
+    {
+      siteName: "Zindi",
+      iconifyClassname: "simple-icons:zero",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink: "https://zindi.africa/users/Yassine_ben_zekri",
     },
   ],
 };
@@ -262,7 +209,7 @@ const degrees = {
     {
       title: "Institut Préparatoire aux Études d'Ingénieur de Nabeul (IPEIN)",
       subtitle: "Preparatory Classes for Engineering Studies",
-      logo_path: "iiitk_logo.png",
+      logo_path: "logo_face_book.png",
       alt_name: "IPEIN",
       duration: "2021 - 2023",
       descriptions: [
@@ -275,7 +222,7 @@ const degrees = {
     {
       title: "Higher School of Statistics and Information Analysis (ESSAI)",
       subtitle: "Engineering Degree in Statistics and Data Analysis",
-      logo_path: "iu_logo.png",
+      logo_path: "logo-essai-rectorat-ministere.png",
       alt_name: "ESSAI",
       duration: "2023 - 2026",
       descriptions: [
@@ -426,8 +373,8 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Data Science and MLops Intern",
+          company: "IPEIN",
           company_url: "https://legatohealthtech.com/",
           logo_path: "legato_logo.png",
           duration: "June 2020 - Aug 2021",
@@ -572,8 +519,8 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  title: "Accomplishment",
+  description: "Some of my participation in hackathon and competition",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -581,24 +528,25 @@ const publications = {
   data: [
     {
       id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      name: "Parkiwin",
+      createdAt: "2024-02-15T00:00:00Z",
+      description: "1st place in a National Hackathon",
+      url: "https://zindi.africa/competitions/gods-30",
     },
     {
       id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
+      name: "AI odysee Google Hackathon",
+      createdAt: "2025-02-12T00:00:00Z",
+      description: "2nd Place",
       url: "https://blog.paperspace.com/consistency-models/",
+    },
+    {
+      id: "mdp-diffusion",
+      name: "GO DATA SCIENCE 4.0 - Mental Health Challenge",
+      createdAt: "2025-02-15T00:00:00Z",
+      description: "5th place in a Zindi",
+      url:
+        "https://zindi.africa/competitions/go-data-science-40-mental-health-challenge",
     },
   ],
 };
@@ -609,7 +557,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, Computer Vision, NLP, and LLM Finetuning.",
   },
   blogSection: {
     title: "Blogs",
@@ -620,14 +568,14 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Ariana,Tunisia",
+    locality: "Ariana",
+    country: "Tunisia",
+    region: "Borj Louzir",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/DnsjWhP8g31umWtm9", // change the url of the map to my ariana
   },
   phoneSection: {
     title: "",
