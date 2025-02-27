@@ -262,9 +262,9 @@ const degrees = {
     {
       title: "Institut Préparatoire aux Études d'Ingénieur de Nabeul (IPEIN)",
       subtitle: "Preparatory Classes for Engineering Studies",
-      logo_path: "ipein_logo.png",
+      logo_path: "iiitk_logo.png",
       alt_name: "IPEIN",
-      duration: "2020 - 2022",
+      duration: "2021 - 2023",
       descriptions: [
         "⚡ Studied fundamental subjects such as Mathematics, Physics, Chemistry, and Computer Science to prepare for engineering school entrance exams.",
         "⚡ Developed strong problem-solving skills through intensive coursework and competitive exams.",
@@ -273,24 +273,23 @@ const degrees = {
       website_link: "http://www.ipein.rnu.tn",
     },
     {
-      title:
-        "École Supérieure de la Statistique et de l'Analyse de l'Information (ESSAI)",
+      title: "Higher School of Statistics and Information Analysis (ESSAI)",
       subtitle: "Engineering Degree in Statistics and Data Analysis",
-      logo_path: "essai_logo.png",
+      logo_path: "iu_logo.png",
       alt_name: "ESSAI",
-      duration: "2022 - Present",
+      duration: "2023 - 2026",
       descriptions: [
         "⚡ Specialized in Statistics, Data Science, and Financial Engineering.",
         "⚡ Developed expertise in Machine Learning, Deep Learning, Big Data, and Predictive Modeling.",
         "⚡ Worked on real-world projects in AI, Data Science, and Financial Analysis.",
         "⚡ Conducted research in AI-driven decision-making and forecasting models.",
       ],
-      website_link: "http://www.essai.rnu.tn",
+      website_link: "http://www.essai.rnu.tn/",
     },
   ],
 };
 
-const certifications = {
+/* const certifications = {
   certifications: [
     {
       title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
@@ -302,29 +301,30 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Su pervised Machine Learning: Regression and Classification",
+      title: "Supervised Machine Learning: Regression and Classification",
       subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "stanford_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/certificate/WUV27E2DGR6L",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Data Analyst Associate",
+      subtitle: "- DataCamp",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://www.datacamp.com/certificate/DAA0012688286315",
+      alt_name: "Datacamp",
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
-      subtitle: "- Datacamp",
-      logo_path: ".png",
-      certificate_link: "https://www.datacamp.com/certificate/DAA0012688286315",
-      alt_name: "Datacamp",
+      title: "Object Detection w ith Amazon Sagemaker",
+      subtitle: "- Alex Aklson",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/BWCD9GS8TZWH",
+      alt_name: "Coursera",
       color_code: "#1F70C199",
     },
     {
@@ -332,7 +332,7 @@ const certifications = {
       subtitle: "- Kim Akers",
       logo_path: "microsoft_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+        "https://www.coursera.org/account/accomplishments/certificate/TWP2YCADSKXD",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
@@ -401,7 +401,7 @@ const certifications = {
     },
   ],
 };
-
+*/
 // Experience Page
 const experience = {
   title: "Experience",
@@ -411,18 +411,18 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Works and Internship",
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
+          title: "Machine Learning Intern",
+          company: "DeepVolt",
+          company_url: "https://www.deepvolt.com/",
           logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          duration: "July 2024 - September 2024",
+          location: "Ariana , Tunisia",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Worked on optimizing electric vehicle charging station placement using GNN models. Developed an API endpoint and AWS Lambda function for location analysis.",
           color: "#000000",
         },
         {
@@ -643,7 +643,7 @@ export {
   skills,
   competitiveSites,
   degrees,
-  certifications,
+  // certifications,
   experience,
   projectsHeader,
   publicationsHeader,
